@@ -4,7 +4,7 @@ def recursive_sum(arr):
     elif len(arr) == 1:
         return arr[0]
     else:
-        # Sum the first element with the sum of the rest of the elements in the array
+        # Sum the first element with the sum of the rest of the elements in the array.
         return arr[0] + recursive_sum(arr[1:])
 
 array = [2, 4, 6, 10, 1, 6, 8]
